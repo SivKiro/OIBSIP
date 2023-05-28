@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div>
+                <img src="logo.jpg" alt="logo">
+            </div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Hall</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Bedroom</a></li>
+                <li><a href="#">Balcony</a></li>
+            </ul>
+            <a href="#" class="action-btn"></a>
+            <div class="toggle-btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+                <li><a href="#">Hall</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Bedroom</a></li>
+                <li><a href="#">Balcony</a></li>
+        </div>
+        <li><a href="#" class="sign">Get Free Estimate</a></li>
+
+        <div class="content">
+            <h1>Design Your Dream House</h1>
+            <div>
+                <button type="button"><span></span>Order Design</button>
+                <button type="button"><span></span>Join Us</button>
+            </div>
+        </div>
+    </div>
+    <section class="slide">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="text">Bedroom Designs</div>
+            <img src="img/IMG-20230526-WA0008.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+            <div class="text">Balcony Designs</div>
+            <img src="img/IMG-20230526-WA0001.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+            <div class="text">Modular Kitchen Designs</div>
+            <img src="img/IMG-20230526-WA0010.jpg" style="width: 100%" alt="">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+    </div>
+    
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
